@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+}
