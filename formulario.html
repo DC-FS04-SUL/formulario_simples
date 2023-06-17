@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Simples</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main>
+    <main class="container">
         <header>
             <h1>
                 Você concorda que o GIThub salva vidas na T.i em geral?
@@ -33,9 +34,9 @@
             <label for="recomendacao">Você recomendaria o GitHub a um amigo?</label>
             <input type="radio" id="definitivamente">
             <label for="definitivamente">Definitivamente</label>
-            <input type="text" id="talvez">
+            <input type="radio" id="talvez">
             <label for="talvez">Talvez</label>
-            <input type="text" id="naoTemCerteza">
+            <input type="radio" id="naoTemCerteza">
             <label for="naoTemCerteza">Não tenho certeza</label>
             
             <label for="recursoFavorito">Qual é o seu recurso favorito do GitHub?</label>
@@ -44,14 +45,14 @@
                 <option value="pages">Pages</option>
                 <option value="contribuir">Contribuir</option>
                 <option value="portfolios">Portfólios</option>
-                <option value="preereNaoDizer">Prefiro não dizer</option>
+                <option value="prefereNaoDizer">Prefiro não dizer</option>
                 <option value="outro">Outro</option>
             </select>
 
             <label for="comentarioSugestao">Algum comentário ou sugestão?</label>
             <textarea name="comentarioSugestao" id="" cols="30" rows="10"></textarea>
 
-            <a href="">Enviar</a>
+            <button>Enviar</button>
         </form>
 
     </main>
