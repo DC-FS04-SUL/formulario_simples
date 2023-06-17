@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>
+                Você concorda que o GIThub salva vidas na T.i em geral?
+            </h1>
+        </header>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text">
+            <label for="Email">Email</label>
+            <input type="email">
+            <label for="Idade">Idade</label>
+            <input type="text">
+            
+            <label for="funcao">Qual opção melhor descreve sua função atual?</label>
+            <select name="funcao">
+                <option value="funcao" disabled>Selecione a função atual</option>
+                <option value="aluna">Aluna</option>
+                <option value="trabalho">Trabalho em tempo integral</option>
+                <option value="aprendiz">Aprendiz em tempo integral</option>
+                <option value="naoDizer">Prefiro não dizer</option>
+                <option value="outro">Outro</option>
+            </select>
+            
+            <label for="recomendacao">Você recomendaria o GitHub a um amigo?</label>
+            <input type="radio" id="definitivamente">
+            <label for="definitivamente">Definitivamente</label>
+            <input type="text" id="talvez">
+            <label for="talvez">Talvez</label>
+            <input type="text" id="naoTemCerteza">
+            <label for="naoTemCerteza">Não tenho certeza</label>
+            
+            <label for="recursoFavorito">Qual é o seu recurso favorito do GitHub?</label>
+            <select name="" id="">
+                <option value="funcao" disabled>Selecione a função atual</option>
+                <option value="pages">Pages</option>
+                <option value="contribuir">Contribuir</option>
+                <option value="portfolios">Portfólios</option>
+                <option value="preereNaoDizer">Prefiro não dizer</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <label for="comentarioSugestao">Algum comentário ou sugestão?</label>
+            <textarea name="comentarioSugestao" id="" cols="30" rows="10"></textarea>
+
+            <a href="">Enviar</a>
+        </form>
+
+    </main>
+</body>
+</html>
